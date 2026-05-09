@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- ML artefacts ---
+mlruns/
+mlartifacts/
+*.pkl
+*.joblib
+
+# --- Data: keep folder shape, ignore contents ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Reports: keep folder, ignore generated PNGs ---
+reports/figures/*
+!reports/figures/.gitkeep
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Streamlit ---
+.streamlit/secrets.toml

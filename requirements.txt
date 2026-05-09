@@ -1,0 +1,27 @@
+# --- Core data + ML ---
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+imbalanced-learn>=0.12
+xgboost>=2.0
+lightgbm>=4.3
+
+# --- Tuning + tracking ---
+optuna>=3.6
+mlflow>=2.13
+
+# --- Explainability ---
+shap>=0.45
+matplotlib>=3.8
+seaborn>=0.13
+
+# --- Persistence ---
+joblib>=1.3
+
+# --- Dashboard ---
+streamlit>=1.36
+plotly>=5.22
+
+# --- Notebook (optional, for EDA) ---
+jupyter>=1.0
+ipykernel>=6.29
