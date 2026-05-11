@@ -66,8 +66,11 @@ N_TRIALS = 20
 RANDOM_STATE = 42
 EXPERIMENT_NAME = "churn-prediction"
 
-# Quieten noisy libraries — Optuna prints every trial otherwise.
+# Quieten noisy libraries — Optuna prints every trial otherwise, and
+# scikit-learn 1.8 emits a FutureWarning per LR fit about the upcoming
+# `penalty` → `l1_ratio` rename (removal in 1.10; not actionable today).
 warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
 optuna.logging.set_verbosity(optuna.logging.WARNING)
 
 logging.basicConfig(

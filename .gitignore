@@ -16,6 +16,7 @@ mlartifacts/
 mlflow.db
 *.pkl
 *.joblib
+models/*.json
 
 # --- Data: keep folder shape, ignore contents ---
 data/raw/*
