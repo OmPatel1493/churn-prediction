@@ -142,7 +142,7 @@ def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
         s = str(val).strip().lower()
         return s not in {"no", "no internet service", "no phone service"}
 
-    service_active = df[_SERVICE_COLS].applymap(_has_service)
+    service_active = df[_SERVICE_COLS].map(_has_service)
     df["has_multiple_services"] = (service_active.sum(axis=1) >= 2).astype(int)
 
     return df

@@ -22,6 +22,5 @@ joblib>=1.3
 streamlit>=1.36
 plotly>=5.22
 
-# --- Notebook (optional, for EDA) ---
-jupyter>=1.0
+# --- Notebook kernel only (VS Code runs .ipynb natively; full JupyterLab not needed) ---
 ipykernel>=6.29

@@ -13,6 +13,7 @@ env/
 # --- ML artefacts ---
 mlruns/
 mlartifacts/
+mlflow.db
 *.pkl
 *.joblib
 
@@ -34,3 +35,6 @@ Thumbs.db
 
 # --- Streamlit ---
 .streamlit/secrets.toml
+
+# --- Private study notes (interview prep, design rationale) ---
+NOTES.md
