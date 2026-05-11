@@ -1,5 +1,5 @@
 """
-Step 1 — Data pipeline for the IBM Telco Customer Churn dataset.
+Data pipeline for the IBM Telco Customer Churn dataset.
 
 Run from the project root:
 

@@ -1,5 +1,5 @@
 """
-Step 2 — Train and tune three models, track every experiment, save the winner.
+Train and tune three models, track every experiment, save the winner.
 
 Models
 ------

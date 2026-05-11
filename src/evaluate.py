@@ -1,5 +1,5 @@
 """
-Step 2 — Evaluation utilities: metrics + diagnostic plots.
+Evaluation utilities: metrics + diagnostic plots.
 
 Pure functions, no side effects beyond writing PNGs to disk. Imported by
 src/train.py and src/explain.py and (later) the Streamlit dashboard.

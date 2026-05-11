@@ -1,5 +1,5 @@
 """
-Step 3 — SHAP explainability for the winning model.
+SHAP explainability for the winning model.
 
 Loads the winner from models/best_model.pkl, computes SHAP values on the test
 set, and saves three diagnostic plots plus a pickled SHAP cache the dashboard
